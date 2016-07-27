@@ -1,4 +1,114 @@
 .kichwa{
     background-image:url(images/grey.jpg);
+}
+.nav-bar{
+    display:inline-block;
+    color: aqua;
+    float: right;
+    margin-top: 0;
+}
+.nav-bar li{
+    display: inline;
     
+}
+.name{
+    width: 50%;
+    float: left;
+}
+.mwili{
+    background-color: darkgray;
+    height: 600px;
+    width: 100%;
+        
+}
+.row{
+    background-color: darkseagreen
+}
+.mguu{
+    display: inline-block;
+    color: aqua;
+    float: right;
+    margin-bottom: 0;
+}
+.mguu li{
+    display: inline;
+}
+.heading{
+    color:whitesmoke;
+    text-align: center;
+}
+#cssSlider {
+  width: 100%;
+	height: 300px;S
+	overflow: hidden;
+	border: 10px solid #666;
+}
+
+#sliderImages {
+	width :8000px;
+	height: 300px;
+	overflow: hidden;
+	
+	/* animation duration: 16s : 5x ~3s display image + 5x ~0.2s slide */
+	animation: slide 30s infinite;
+	-moz-animation: slide 30s infinite;
+	-webkit-animation: slide 30s infinite;
+	-o-animation: slide 30s infinite;
+}
+
+#sliderImages img {
+	float: left;
+}
+
+@keyframes slide{
+	0%{margin-left: 0px;}
+	17%{margin-left: 0px;}
+	20%{margin-left: -800px;}
+	37%{margin-left: -800px;}
+	40%{margin-left: -1600px;}
+	57%{margin-left: -1600px;}
+	60%{margin-left: -2400px;}
+	77%{margin-left: -2400px;}
+	80%{margin-left: -3200px;}
+	97%{margin-left: -3200px;}
+	100%{margin-left: 0px;}
+}
+
+@-moz-keyframes slide{
+	0%{margin-left: 0px;}
+	17%{margin-left: 0px;}
+	20%{margin-left: -800px;}
+	37%{margin-left: -800px;}
+	40%{margin-left: -1600px;}
+	57%{margin-left: -1600px;}
+	60%{margin-left: -2400px;}
+	77%{margin-left: -2400px;}
+	80%{margin-left: -3200px;}
+	100%{margin-left: -3200px;}
+}
+
+@-webkit-keyframes slide{
+	0%{margin-left: 0px;}
+	17%{margin-left: 0px;}
+	20%{margin-left: -800px;}
+	37%{margin-left: -800px;}
+	40%{margin-left: -1600px;}
+	57%{margin-left: -1600px;}
+	60%{margin-left: -2400px;}
+	77%{margin-left: -2400px;}
+	80%{margin-left: -3200px;}
+	100%{margin-left: -3200px;}
+}
+
+@-o-keyframes slide{
+	0%{margin-left: 0px;}
+	17%{margin-left: 0px;}
+	20%{margin-left: -800px;}
+	37%{margin-left: -800px;}
+	40%{margin-left: -1600px;}
+	57%{margin-left: -1600px;}
+	60%{margin-left: -2400px;}
+	77%{margin-left: -2400px;}
+	80%{margin-left: -3200px;}
+	100%{margin-left: -3200px;}
 }
