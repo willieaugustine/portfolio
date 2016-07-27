@@ -87,27 +87,3 @@ transition: margin 300ms cubic-bezier(0.17, 0.04, 0.03, 0.94);
 #toggle:checked + label:after {
   content:"Close"
 }
-$img-w: 5912px;
-$img-h: 389px;
-$shrink: 2;
-$ratio: 1 / $shrink;
-$speed: 50s;
-
-.slider {
-  position: absolute;
-  width: 100%;
-  top: calc(50% - #{$img-h * $ratio / 2});
-  overflow: hidden;
-  .slider-row {
-    width: $img-w * $ratio;
-    height: $img-h * $ratio;
-    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/111863/ubiquity-summit-web-01.png);
-    background-size: $img-w * $ratio $img-h * $ratio;
-    animation: slide $speed linear infinite;    
-  }
-}
-
-@keyframes slide {
-  from { background-position-x: 0; }
-  to   { background-position-x: -$img-w * $ratio; }
-}
